@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+    <module name="Login">
+        <element name='Login_username' attribute="//input[@id='userId']" type='XPATH'/>
+        <element name='Login_password' attribute="//input[@id='password']" type='XPATH'/>
+        <element name='Login_submit_button' attribute="//input[@type='submit']" type='XPATH'/>
+    </module>
+    <module name="Home">
+        <element name='Home_HomepageImage' attribute="//img[@id='img_TXT_76548B3CDB1C993478940']" type='XPATH'/>
+        <element name='Home_Menu' attribute="//a[@title='Show/Hide Menu']" type='XPATH'/>
+        <element name='Home_UserMenu' attribute="//span[text()='User Menu']" type='XPATH'/>
+        <element name='Home_Customer' attribute="//span[text()='Customer'][1]" type='XPATH'/>
+        <element name='Home_CustomerNormalCreation' attribute="//span[text()='Customer Normal Creation']" type='XPATH'/>
+        <element name='Home_IndividualCustomer' attribute="//span[text()='Individual Customer']" type='XPATH'/>
+        <element name='Home_CorporateCustomer'
+                 attribute="//span[text()='Corporate Customer']" type='XPATH'/>
+        <element name='Home_CustomerQuickCreation' attribute="//span[text()='Customer Quick Creation']" type='XPATH'/>
+        <element name='Home_IndividualQuickCustomer'
+                 attribute="//span[text()='Individual Quick Customer']" type='XPATH'/>
+        <element name='Home_CorporateQuickCustomer' attribute="//span[text()='Corporate Quick Customer']" type='XPATH'/>
+        <element name='Home_CustomerNormalAuthoriseDelete'
+                 attribute="//span[text()='Customer Normal Creation']/parent::a/parent::li//span[text()='Authorise/Delete Customer']"
+                 type='XPATH'/>
+        <element name='Home_CustomerQuickAuthoriseDelete'
+                 attribute="//span[text()='Customer Quick Creation']/parent::a/parent::li//span[text()='Authorise/Delete Customer']"
+                 type='XPATH'/>
+        <element name='Home_SoleProprietorQuickCreation' attribute="//span[text()='Sole Proprietor Quick Customer']"
+                 type='XPATH'/>`
+        <element name='Home_SoleProprietorCustomer'
+                 attribute="//span[contains(text(),'Sole Proprietor Customer')]" type='XPATH'/>
+        <element name='Home_CreateProspectCustomer' attribute="//span[text()='Create Prospect Customer']"
+                 type='XPATH'/>
+        <element name='Home_RiskManagement' attribute="//span[contains(text(), 'Risk Management')]"
+                 type='XPATH'/>
+        <element name='Home_Limits' attribute="//span[text()='Limits']"
+                 type='XPATH'/>
+        <element name='Home_LimitMenu' attribute="//span[text()='Limit Menu']"
+                 type='XPATH'/>
+        <element name='Home_SecuredLimit' attribute="//span[text()='Secured Limit']"
+                 type='XPATH'/>
+        <element name='Home_UnsecuredSecuredLimit' attribute="//span[text()='Unsecured Limit']"
+                 type='XPATH'/>
+        <element name='Home_Edit'
+                 attribute="//span[text()='Edit']" type='XPATH'/>
+        <element name='Home_UnSecuredLimit' attribute="//span[text()='Unsecured Limit']"
+                 type='XPATH'/>
+        <element name='Home_MaintainReverseLimit' attribute="//span[text()='Maintain / Reverse Limit']"
+                 type='XPATH'/>
+        <element name='Home_ChangeCustomerLiability' attribute="//span[text()='Change Customer Liability']"
+                 type='XPATH'/>
+        <element name='Home_LimitSubAllocation' attribute="//span[text()='Limit Sub Allocation']"
+                 type='XPATH'/>
+        <element name='Home_AuthoriseDeleteLimit' attribute="//span[text()='Authorise/Delete Limit']"
+                 type='XPATH'/>
+        <element name='Home_AuthoriseDeleteLimitSubAlloc' attribute="//span[text()='Authorise/Delete Limit Sub Alloc']"
+                 type='XPATH'/>
+        <element name='Home_LimitSharingGroups' attribute="//span[text()='Limit Sharing Groups']"
+                 type='XPATH'/>
+        <element name='Home_Customer' attribute="//span[text()='Customer']"
+                 type='XPATH'/>
+        <element name='Home_CreateLimitGroup' attribute="//span[text()='Create Limit Group']"
+                 type='XPATH'/>
+        <element name='Home_DefineLimitPriority' attribute="//span[text()='Define Limit Priority']"
+                 type='XPATH'/>
+        <element name='Home_Enquiries' attribute="//span[text()='Enquiries']"
+                 type='XPATH'/>
+        <element name='Home_CustomerPositionSummary' attribute="//span[text()='Customer Position Summary']"
+                 type='XPATH'/>
+        <element name='Home_ReversedLimits' attribute="//span[text()='Reversed Limits']"
+                 type='XPATH'/>
+        <element name='Home_LIAB' attribute="//span[text()='LIAB']"
+                 type='XPATH'/>
+        <element name='Home_DeferralEnquiry' attribute="//span[text()='Deferral Enquiry']"
+                 type='XPATH'/>
+        <element name='Home_ExcessOverLimit' attribute="//span[text()='Excess Over Limit']"
+                 type='XPATH'/>
+        <element name='Home_NonPerformingLoans' attribute="//span[text()='Non Performing Loans']"
+                 type='XPATH'/>
+        <element name='Home_CustomerRelationshipGroup' attribute="//span[text()='Customer Relationship Group']"
+                 type='XPATH'/>
+        <element name='Home_InputCustomerRelationGroupRecords'
+                 attribute="//span[text()='Input Customer Relation Group records']"
+                 type='XPATH'/>
+        <element name='Home_AmendCustomerRelationGroupRecords'
+                 attribute="//span[text()='Amend Customer Relation Group records']"
+                 type='XPATH'/>
+        <element name='Home_AuthoriseDeleteCustomerRelationGroup'
+                 attribute="//span[text()='Authorise / Delete Customer Relation Group']"
+                 type='XPATH'/>
+        <element name='CustomerGroup' attribute="//span[text()='Customer Group']"
+                 type='XPATH'/>
+        <element name='Home_InputAmendCustomerGroup' attribute="//span[text()='Input/Amend Customer Group']"
+                 type='XPATH'/>
+        <element name='Home_AuthoriseCustomerGroup' attribute="//span[text()='Authorise Customer Group']"
+                 type='XPATH'/>
+        <element name='Home_HideReverseRelation' attribute="//span[text()='Hide Reverse Relation']"
+                 type='XPATH'/>
+        <element name='Home_AggregateRelations' attribute="//span[text()='Aggregate Relations']"
+                 type='XPATH'/>
+        <element name='Home_HideAggregateRelation' attribute="//span[text()='Hide Aggregate Relation']"
+                 type='XPATH'/>
+        <element name='Home_AggregateRelations' attribute="//span[text()='Aggregate Relations']"
+                 type='XPATH'/>
+        <element name='Home_HideAggregateRelation' attribute="//span[text()='Hide Aggregate Relation']"
+                 type='XPATH'/>
+        <element name='Home_CustomerGroupChange' attribute="//span[text()='Customer Group Change']"
+                 type='XPATH'/>
+        <element name='Home_ViewCustomerGroupChange' attribute="//span[text()='View Customer Group Change']"
+                 type='XPATH'/>
+        <element name='Home_AmendCustomerGroupChange' attribute="//span[text()='Amend Customer Group Change']"
+                 type='XPATH'/>
+        <element name='Home_AuthoriseCustomerGroupChange' attribute="//span[text()='Authorise Customer Group Change']"
+                 type='XPATH'/>
+        <element name='Home_CustomerGroupGraphicalView' attribute="//span[text()='Customer Group Graphical View']"
+                 type='XPATH'/>
+        <element name='Home_CustomerRelationship' attribute="//span[text()='Customer Relationship']"
+                 type='XPATH'/>
+        <element name='Home_InputCustomerRelationshipRecords'
+                 attribute="//span[text()='Input Customer Relationship records']"
+                 type='XPATH'/>
+        <element name='Home_AmendCustomerRelationshipRecords'
+                 attribute="//span[text()='Amend Customer Relationship records']"
+                 type='XPATH'/>
+        <element name='Home_AuthoriseDeleteCustomerRelationshipRecs'
+                 attribute="//span[text()='Authorise / Delete Customer Relationship recs']"
+                 type='XPATH'/>
+    </module>
+    <module name="Enquiry">
+        <element name='Enquiry_ToggleButton' attribute="//a[@title='Toggle Toolbar']" type='XPATH'/>
+    </module>
+    <module name="Navbar">
+        <element name='Navbar_Commandline' attribute="//input[@id='QUE_3B224FD68CBCFA9126186']" type='XPATH'/>
+        <element name='Navbar_ExecuteCommandline' attribute="//a[@id='BUT_3B224FD68CBCFA9126188']" type='XPATH'/>
+    </module>
+    <module name="ContractScreen">
+        <element name='ContractScreen_NewButton' attribute="//a[@title='New']" type='XPATH'/>
+        <element name='ContractScreen_EditButton' attribute="//a[@title='Edit']" type='XPATH'/>
+        <element name='ContractScreen_ViewButton' attribute="//a[@title='View']" type='XPATH'/>
+        <element name='ContractScreen_VerifyButton' attribute="//a[@title='Verify']" type='XPATH'/>
+        <element name='ContractScreen_PerformActionButton' attribute="//a[@title='Perform Action']" type='XPATH'/>
+        <element name='ContractScreen_SecuredJointLimit'
+                 attribute="//input[contains(@id, 'PrimaryKey') and @type = 'text']" type='XPATH'/>
+        <element name='ContractScreen_SecuredLimitDropdownButton'
+                 attribute="//div[contains(@id, 'PrimaryKey')]//span[@class='ddSpan']" type='XPATH'/>
+        <element name='ContractScreen_InputField'
+                 attribute="//input[contains(@id, 'PrimaryKey') and @type = 'text']" type='XPATH'/>
+    </module>
+    <module name="Authorize">
+        <element name='Authorize_ToggleMenu'
+                 attribute="//a[@id='C1__C1__C1__BUT_EnqResultsToolbarVisibilityToggleButton']" type='XPATH'/>
+        <element name='Authorize_Filter'
+                 attribute="//span[contains(text(), 'Selection Screen')]//parent::a"
+                 type='XPATH'/>
+        <element name='Authorize_FilterLegalID' attribute="//input[@id='C1__C1__C1__QUE_EFAB2B0851F914291234129']"
+                 type='XPATH'/>
+        <element name='Authorize_FindButton' attribute="//button[@value='Find']"
+                 type='XPATH'/>
+        <element name='Authorize_AuthorizeExpand' attribute="//a[@title='Authorise']"
+                 type='XPATH'/>
+        <element name='Authorize_AuthorizeView' attribute="//a[@title='View']"
+                 type='XPATH'/>
+        <element name='Authorize_AuthorizeEdit' attribute="//a[@title='Edit']"
+                 type='XPATH'/>
+        <element name='Authorize_AuthorizeCommit' attribute="//a[@title='Commit']"
+                 type='XPATH'/>
+        <element name='Authorize_AuthorizeButton' attribute="//div[contains(@id, 'authorise_version_button')]"
+                 type='XPATH'/>
+        <element name='Authorize_CommitButton' attribute="//a[@id='C1__C2__commit_version_button']" type='XPATH'/>
+        <element name='Authorize_LegalIDParamMissingAccept'
+                 attribute="//a[contains(@id, 'accept_version_overrides_button')]" type='XPATH'/>
+        <element name='Authorize_VerificationMessage' attribute="//div[contains(text(), 'Txn Complete')]" type='XPATH'/>
+        <element name='Authorize_ShortName' attribute="//input[@id='C1__C1__C1__QUE_EFAB2B0851F914291232886']"
+                 type='XPATH'/>
+        <element name='Authorize_CustomerCode' attribute="//input[contains(@name, 'CUSTOMERCODE')]"
+                 type='XPATH'/>
+        <element name='Authorize_LimitID' attribute="//input[@aria-label= 'Limit ID' and @type= 'text']"
+                 type='XPATH'/>
+        <element name='Authorize_SubAllocID' attribute="//input[@aria-label = 'Sub Alloc Id' and @type = 'text']"
+                 type='XPATH'/>
+    </module>
+    <module name="Action">
+
+        <element name='Action_Validate'
+                 attribute="//div[contains(@id, 'validate_version_button')] | //a[contains(@id, 'validate_version_button')]"
+                 type='XPATH'/>
+        <element name="Action_ValidatePopulate" attribute="//a[contains(@id, 'C1__aa_populate_version_button')]"
+                 type="XPATH"/>
+
+        <!--        <element name='Action_Commit' attribute="//div[@id='C1__p4_commit_version_button']" type='XPATH'/>-->
+
+
+        <element name='Action_ErrorMessage'
+                 attribute="//div[contains(text(), 'Please resolve the errors below to proceed:') ] | //h1[contains(text(), 'Please resolve the errors below to proceed:')]"
+                 type='XPATH'/>
+        <element name='Action_Validate' attribute="//a[contains(@id, 'validate_version_button')]" type='XPATH'/>
+        <element name='Action_Commit' attribute="//a[contains(@id, 'commit_version_button') and @title = 'Commit']"
+                 type='XPATH'/>
+        <element name='Action_VerificationMessageAuthorize'
+                 attribute="//div[@id='C1__C2__p1_GRP_BD5F38136307A5F545229']//div[contains(text(), 'Txn Complete:')]"
+                 type='XPATH'/>
+        <element name='Action_VerificationMessage'
+                 attribute="//div[@id='C1__p1_GRP_BD5F38136307A5F545229']//div[contains(text(), 'Txn Complete:')]"
+                 type='XPATH'/>
+        <element name='Action_VerificationMessageFailed'
+                 attribute="//div[@id='C1__p1_GRP_BD5F38136307A5F545229']//div[contains(text(), 'Txn Failed:')]"
+                 type='XPATH'/>
+
+        <element name='Action_VerificationMessageSweep'
+                 attribute="//div[@id='C1__C2__FMT_720478DB01D9A98C7316']//div[contains(text(), 'Txn Complete:')]"
+                 type='XPATH'/>
+        <element name='Action_VerificationMessageInvalidAmount'
+                 attribute="//a[contains(text(),'Amount: INVALID MINUS')]"
+                 type='XPATH'/>
+        <element name='Action_NotAValidCurrency'
+                 attribute="//tr[contains(@id, '__QUE_--AA-ARRANGEMENT-ACTIVITY--CURRENCY--_ERROR_NAV')]//a[contains(text(),'Currency: Not a Valid Currency for this Product')]"
+                 type='XPATH'/>
+        <element name='Action_ErrorMessagePopUp'
+                 attribute="//div[@class='fixedErrordiv fixedErrordivPosition errorShadow tc-popup show-popup tc-popup-sticky ui-draggable']"
+                 type='XPATH'/>
+        <element name='Action_ErrorMessageToggler'
+                 attribute="//div[@id='ErrorNavigatorToggler']"
+                 type='XPATH'/>
+        <element name='Action_UpdateGreenFlag'
+                 attribute="//img[contains(@src, 'green_flag')]"
+                 type='XPATH'/>
+        <element name='Action_TDRAcceptButton'
+                 attribute="//a[@id='C1__accept_version_overrides_and_warnings_button']//span[contains(text(),'Accept')]"
+                 type='XPATH'/>
+
+        <element name='Action_OverrideMessage'
+                 attribute="//caption[text()='DisplayOverrides']//parent::table"
+                 type='XPATH'/>
+        <element name='Action_PrimaryKey'
+                 attribute="//div[@class='ecDIB  ']//span[contains(@id, 'PrimaryKey')]" type='XPATH'/>
+        <element name='Action_OverrideAcceptDropdown1'
+                 attribute="//select[@name='C1__WORKINGELEMENTS[1].DISPLAYWARNINGS[1].STATE']" type='XPATH'/>
+        <element name='Action_OverrideAcceptDropdown2'
+                 attribute="//select[@name='C1__WORKINGELEMENTS[1].DISPLAYWARNINGS[2].STATE']" type='XPATH'/>
+        <element name='Action_OverrideAccept'
+                 attribute="//a[contains(@id, 'accept_version_overrides_and_warnings_button')]" type='XPATH'/>
+        <element name='Action_OverrideAccept1'
+                 attribute="//a[@id='C1__accept_version_warnings_button']" type='XPATH'/>
+
+
+         <element name='Action_OverrideDropdown'
+                 attribute="//select[@class='tc-select-padding tc-rounded-1 WarningMsg  '] |
+                            //select[@name='C1__WORKINGELEMENTS[1].DISPLAYWARNINGS[1].STATE']" type='XPATH'/>
+
+
+
+    </module>
+
+    <module name="Customer">
+        <element name='Customer_TitleDropdown' attribute="//select[@id='C1__C2__C1__C1__C1__QUE_--CUSTOMER--TITLE--']"
+                 type='XPATH'/>
+
+
+
+        <element name='Customer_Zakat_ExemptReason' attribute="//select[contains(@id,'QUE_--CUSTOMER--L-ZAK-RES--')]"
+                 type='XPATH'/>
+
+        <element name='Customer_MaritalStatusDropDown' attribute="//select[@id='C1__C2__C1__C1__C1__QUE_--CUSTOMER--MARITAL-STATUS--']"
+                 type='XPATH'/>
+
+
+
+
+        <element name='Customer_FirstName1'
+                 attribute="//input[contains(@id, 'NAME-1') and @type='text']" type='XPATH'/>
+        <element name='Customer_LastName'
+                 attribute="//input[contains(@id, 'FAMILY-NAME') and @type='text']" type='XPATH'/>
+        <element name='Customer_GivenName' attribute="//input[@id='C1__C2__C1__C1__C1__QUE_--CUSTOMER--GIVEN-NAMES--']"
+                 type='XPATH'/>
+        <element name='Customer_FamilyName' attribute="//input[@id='C1__C2__C1__C1__C1__QUE_--CUSTOMER--FAMILY-NAME--']"
+                 type='XPATH'/>
+        <element name='Customer_Mnemonic' attribute="//input[contains(@id, 'CUSTOMER--MNEMONIC') and @type='text']"
+                 type='XPATH'/>
+        <element name='Customer_ShortName'
+                 attribute="//input[contains(@id, 'SHORT-NAME') and @type='text']" type='XPATH'/>
+        <element name='Customer_MotherMaidenName'
+                 attribute="//input[contains(@id, 'MTHR-NAME') and @type='text']" type='XPATH'/>
+        <element name='Customer_FatherHusbandName'
+                 attribute="//input[contains(@id, 'FTR-HUS-NAM') and @type='text']" type='XPATH'/>
+        <element name='Customer_Gender'
+                 attribute='//label[contains(@for, "GENDER")]'
+                 type='XPATH'/>
+        <element name='Customer_MaritalStatus'
+                 attribute="//select[contains(@id, 'MARITAL-STATUS')]" type='XPATH'/>
+        <element name='Customer_AccountOfficer'
+                 attribute="//input[contains(@id, 'ACCOUNT-OFFICER') and @type='text']" type='XPATH'/>
+        <element name='Customer_BranchNameDropdownButton'
+                 attribute="//div[contains(@id, 'COMPANY-BOOK')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='Customer_SectorDropdownButton'
+                 attribute="//div[contains(@id, '--CUSTOMER--SECTOR') and @class = 'ddWrapper']//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='Customer_Industry' attribute="//input[contains(@id, 'CUSTOMER--INDUSTRY')]"
+                 type='XPATH'/>
+        <element name='Customer_Target' attribute="//input[contains(@id, 'CUSTOMER--TARGET') and @type='text']"
+                 type='XPATH'/>
+        <element name='Customer_Status'
+                 attribute="//input[contains(@id, 'CUSTOMER--CUSTOMER-STATUS')]" type='XPATH'/>
+        <element name='Customer_Nationality'
+                 attribute="//input[contains(@id, 'CUSTOMER--NATIONALITY')]" type='XPATH'/>
+        <element name='Customer_Residence' attribute="//input[contains(@id, 'CUSTOMER--RESIDENCE')]"
+                 type='XPATH'/>
+        <element name='Customer_Street' attribute="//input[contains(@id, 'CUSTOMER--SECTOR')]"
+                 type='XPATH'/>
+        <element name='Customer_StreetName' attribute="//input[contains(@id, 'CUSTOMER--STREET')]"
+                 type='XPATH'/>
+        <element name='Customer_Religion'
+                 attribute='//label[contains(@for, "RELIGION")]' type='XPATH'/>
+        <element name='Customer_Zakat'
+                 attribute='//label[contains(@for, "ZAK-EXMP")]' type='XPATH'/>
+        <element name='Customer_Segment'
+                 attribute="//input[contains(@id, 'CUSTOMER--SEGMENT') and @type='text']" type='XPATH'/>
+        <element name='Customer_PlaceOfBirth'
+                 attribute="//input[contains(@id, 'CUSTOMER--L-PLC-OF-BRTH') and @type='text']" type='XPATH'/>
+        <element name='Customer_Residence'
+                 attribute="//input[contains(@id, 'CUSTOMER--RESIDENCE') and @type='text']" type='XPATH'/>
+        <element name='Customer_DateOfBirth'
+                 attribute="//input[contains(@id, 'CUSTOMER--DATE-OF-BIRTH') and @type='text']" type='XPATH'/>
+        <element name='Customer_Language'
+                 attribute="//input[contains(@id, 'CUSTOMER--LANGUAGE') and @type='text']" type='XPATH'/>
+        <element name='Customer_DateOfIncorp/REG'
+                 attribute="//input[contains(@id,'CUSTOMER--BIRTH-INCORP-DATE')]" type='XPATH'/>
+        <element name='Customer_IDDoc'
+                 attribute="//a[contains(text(), 'ID') and contains(@id, 'TAB')]" type='XPATH'/>
+        <element name='Customer_IDDoc_LegalID'
+                 attribute="//input[contains(@id, 'CUSTOMER--LEGAL-ID') and @type='text']" type='XPATH'/>
+        <element name='Customer_IDDoc_IDType1DropdownButton'
+                 attribute="//div[contains(@id, 'LEGAL-DOC-NAME')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='Customer_IDDoc_IssueDate'
+                 attribute="//input[contains(@id, 'ISS-DATE') and @type='text']" type='XPATH'/>
+        <element name='Customer_IDDoc_ExpiryDate'
+                 attribute="//input[contains(@id, 'EXP-DATE') and @type='text']" type='XPATH'/>
+        <element name='Customer_MailingAddress'
+                 attribute="//a[contains(text(), 'Mailing') and contains(@id, 'TAB')]" type='XPATH'/>
+        <element name='Customer_MailingAddress_Address1'
+                 attribute="//input[contains(@id, 'CUSTOMER--ADDRESS') and @type='text']" type='XPATH'/>
+        <element name='Customer_MailingAddress_City'
+                 attribute="//input[contains(@id, 'CUSTOMER--TOWN') and @type='text']" type='XPATH'/>
+        <element name='Customer_EmailAddress_Address1'
+                 attribute="//input[contains(@aria-label, 'Email Address.1') and @type='text']" type='XPATH'/>
+        <element name='Customer_MailingAddress_MobileNumber'
+                 attribute="//input[contains(@id, 'CUSTOMER--SMS') and @type='text']" type='XPATH'/>
+        <element name='Customer_EmploymentBusiness'
+                 attribute="//a[contains(text(), 'Employment/Business') and contains(@id, 'TAB')]" type='XPATH'/>
+        <element name='Customer_EmploymentBusiness_Occupation'
+                 attribute="//input[contains(@id, 'CUSTOMER--OCCUPATION') and @type='text']" type='XPATH'/>
+        <element name='Customer_KYC'
+                 attribute="//a[contains(text(), 'KYC') and contains(@id, 'TAB')]" type='XPATH'/>
+        <element name='Customer_KYC_FundSRCOccasional'
+                 attribute="//SELECT[contains(@id, 'SRC-OF-FUNDS')]" type='XPATH'/>
+        <element name='Customer_KYC_NatureOfBusinessDropdownButton'
+                 attribute="//div[contains(@id, 'NAT-OF-BUS')]//span[@class='ddSpan']" type='XPATH'/>
+        <element name='Customer_KYC_NatureOfBusinessDropdownAutonomousBody'
+                 attribute="//span[text()='78' and @title='@ID']" type='XPATH'/>
+        <element name='Customer_KYC_MntlyCRTurnoverAmt'
+                 attribute="//input[contains(@id, 'CR-TRVR-AMT') and @type='text']" type='XPATH'/>
+        <element name='Customer_KYC_MntlyDRTurnoverAmt'
+                 attribute="//input[contains(@id, 'MNTH-DR-AMT') and @type='text']" type='XPATH'/>
+        <element name='Customer_KYC_MntlyCRTurnoverTxn'
+                 attribute="//input[contains(@id, 'CR-TRVR-TXN') and @type='text']" type='XPATH'/>
+        <element name='Customer_KYC_MntlyDRTurnoverTxn'
+                 attribute="//input[contains(@id, 'MNT-DR-TXN') and @type='text']" type='XPATH'/>
+        <element name='Customer_KYC_PEP'
+                 attribute="//input[contains(@id, 'MANUAL-RISK-CLASS')]" type='XPATH'/>
+        <element name='Customer_Relation'
+                 attribute="//a[contains(text(), 'Relation') and contains(@id, 'TAB')]" type='XPATH'/>
+        <element name='Customer_Relation_Relation1'
+                 attribute="//input[contains(@id, 'CUSTOMER--RELATION-CODE')]" type='XPATH'/>
+        <element name='Customer_Relation_RelationCustomer1'
+                 attribute="//input[contains(@id, 'CUSTOMER--REL-CUSTOMER')]" type='XPATH'/>
+        <element name='Customer_Relation_Role1'
+                 attribute="//input[contains(@id, 'CUSTOMER--ROLE--_R1')]" type='XPATH'/>
+        <element name='Customer_OwnerPercentageShare1'
+                 attribute="//input[contains(@id, 'CUSTOMER--L-OWNR-PER-SH')]" type='XPATH'/>
+        <element name='Customer_TypeofNominatingBody1DropdownButton'
+                 attribute="//div[contains(@id, 'CUSTOMER--L-DIR-TNOM')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='Customer_TypeofNominatingBody1DropdownPVT'
+                 attribute="//span[text()='98' and @title='@ID']" type='XPATH'/>
+        <element name='Customer_NameofNominatingAgency1'
+                 attribute="//input[contains(@id, 'CUSTOMER--L-DIR-NNOM')]" type='XPATH'/>
+        <element name='Customer_ShareholdingPercentage1'
+                 attribute="//input[contains(@id, 'CUSTOMER--L-DIR-SHR')]" type='XPATH'/>
+        <element name='Customer_eCIBDetails'
+                 attribute="//a[contains(text(), 'eCIB') and contains(@id, 'TAB')]" type='XPATH'/>
+        <element name='Customer_eCIBDetailsBusinessIdDropdownButton'
+                 attribute="//div[contains(@id, 'CUSTOMER--L-BUS-ID')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='Customer_eCIBDetailsBusinessIdDropdownAgriculture'
+                 attribute="//span[text()='1' and @title='@ID']" type='XPATH'/>
+        <element name='Customer_LegalIDParamMissingAccept'
+                 attribute="//a[@id='C1__accept_version_overrides_button']" type='XPATH'/>
+    </module>
+    <module name="Limit">
+        <element name='Limit_Find' attribute="//button[@title='Executes the query']"
+                 type='XPATH'/>
+        <element name='Limit_ReverseExpand' attribute="//a[@title='Reverse']"
+                 type='XPATH'/>
+        <element name='Limit_Reverse' attribute="//a[contains(@id, 'reverse_version_button')]"
+                 type='XPATH'/>
+        <element name='Limit_Internal_Amount' attribute="//input[contains(@id, 'INTERNAL-AMOUNT') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_Edit' attribute="//a[@title='Edit']"
+                 type='XPATH'/>
+        <element name='Limit_Currency' attribute="//input[contains(@id, 'LIMIT-CURRENCY') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_AvailableMarker' attribute="//label[contains(@for, 'AVAILABLE-MARKER')]"
+                 type='XPATH'/>
+        <element name='Limit_AvailableMarkerY' attribute="//input[contains(@id, 'AVAILABLE-MARKER') and @value='Y']"
+                 type='XPATH'/>
+        <element name='Limit_AvailableMarkerN' attribute="//input[contains(@id, 'AVAILABLE-MARKER') and @value='N']"
+                 type='XPATH'/>
+        <element name='Limit_AvailableMarkerR' attribute="//input[contains(@id, 'AVAILABLE-MARKER') and @value='R']"
+                 type='XPATH'/>
+        <element name='Limit_LiabilityNumber' attribute="//input[@aria-label='Liability Number']"
+                 type='XPATH'/>
+        <element name='Limit_LimitProduct' attribute="//input[contains(@id, 'LIMIT-PRODUCT') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_LimitType' attribute="//select[contains(@id, 'LIMIT-TYPE')]"
+                 type='XPATH'/>
+        <element name='Limit_RiskGroupID' attribute="//input[contains(@id, 'RISK-GROUP-ID') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_RecordParent' attribute="//input[contains(@id, 'RECORD-PARENT') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_InternalAmount' attribute="//input[contains(@id, 'INTERNAL-AMOUNT') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_Customer1' attribute="//input[contains(@id, 'CUSTOMER-NUMBER') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_FixedVariableFIXED' attribute="//input[contains(@id, 'FIXED-VARIABLE') and @value='FIXED']"
+                 type='XPATH'/>
+        <element name='Limit_FixedVariableVARIABLE'
+                 attribute="//input[contains(@id, 'FIXED-VARIABLE') and @value='VARIABLE']" type='XPATH'/>
+        <element name='Limit_AllowNettingYES' attribute="//input[contains(@id, 'ALLOW-NETTING') and @value='YES']"
+                 type='XPATH'/>
+        <element name='Limit_AllowNettingNO' attribute="//input[contains(@id, 'ALLOW-NETTING') and @value='NO']"
+                 type='XPATH'/>
+        <element name='Limit_BufferYES' attribute="//input[contains(@id, 'LIMIT--BUFFER') and @value='YES']"
+                 type='XPATH'/>
+        <element name='Limit_BufferNO' attribute="//input[contains(@id, 'LIMIT--BUFFER') and @value='NO']"
+                 type='XPATH'/>
+        <element name='Limit_SharedLimitYES' attribute="//input[contains(@id, 'SHARED-LIMIT') and @value='YES']"
+                 type='XPATH'/>
+        <element name='Limit_SharedLimitNO' attribute="//input[contains(@id, 'SHARED-LIMIT') and @value='NO']"
+                 type='XPATH'/>
+        <element name='Limit_BandAvailableMarkerY' attribute="//input[contains(@id, 'BAND-AVAIL-MARK') and @value='Y']"
+                 type='XPATH'/>
+        <element name='Limit_BandAvailableMarkerN' attribute="//input[contains(@id, 'BAND-AVAIL-MARK') and @value='N']"
+                 type='XPATH'/>
+        <element name='Limit_BandAvailableMarkerR' attribute="//input[contains(@id, 'BAND-AVAIL-MARK') and @value='R']"
+                 type='XPATH'/>
+        <element name='Limit_IntradayLimit' attribute="//a[contains(text(), 'Intraday Limit') and contains(@id, 'TAB')]"
+                 type='XPATH'/>
+        <element name='Limit_IntradayLimit_LimitStartDate'
+                 attribute="//input[contains(@id, 'IDL-EFFECTIVE-DATE') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_IntradayLimit_ApprovedLimit'
+                 attribute="//input[contains(@id, 'IDL-APPROVED-AMOUNT') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_IntradayLimit_AdvisedLimit'
+                 attribute="//input[contains(@id, 'IDL-ADVISED-AMOUNT') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_IntradayLimit_StartTime'
+                 attribute="//input[contains(@id, 'IDL-START-TIME') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_IntradayLimit_EndTime'
+                 attribute="//input[contains(@id, 'IDL-END-TIME') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_SignatoryDetails'
+                 attribute="//a[contains(text(), 'Intraday Limit') and contains(@id, 'TAB')]"
+                 type='XPATH'/>
+        <element name='Limit_SignatoryDetails_Signatory'
+                 attribute="//input[contains(@id, 'SIGNATORY') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit'
+                 attribute="//a[contains(text(), 'Excess Over Limit') and contains(@id, 'TAB')]"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_OnlineUpdateY'
+                 attribute="//input[contains(@id, 'ONLINE-UPDATE') and @value = 'Y']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_OnlineUpdateN'
+                 attribute="//input[contains(@id, 'ONLINE-UPDATE') and @value = 'N']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_IncreasingTypeSingle'
+                 attribute="//input[contains(@id, 'INCREASING-TYPE') and @value = 'SINGLE']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_IncreasingTypeFull'
+                 attribute="//input[contains(@id, 'INCREASING-TYPE') and @value = 'FULL']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_IncreaseFreq'
+                 attribute="//input[contains(@id, 'INCREASE-FREQ') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_IncreaseAmount'
+                 attribute="//input[contains(@id, 'INCREASE-AMOUNT') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_IncrEndDate'
+                 attribute="//input[contains(@id, 'INCR-END-DATE') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_EOLRemarks'
+                 attribute="//input[contains(@id, 'EOL-REMARKS') and @type = 'text']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_EOLTypeOneTime'
+                 attribute="//input[contains(@id, 'EOL-TYPE') and @value = 'One Time']"
+                 type='XPATH'/>
+        <element name='Limit_ExcessOverLimit_EOLTypeOneTimeRevolving'
+                 attribute="//input[contains(@id, 'ONLINE-UPDATE') and @value = 'Revolving']"
+                 type='XPATH'/>
+        <element name='Limit_DeferralInformation'
+                 attribute="//a[contains(text(), 'Deferral Information') and contains(@id, 'TAB')]"
+                 type='XPATH'/>
+        <element name='Limit_AdditionalInformation'
+                 attribute="//a[contains(text(), 'Additional Information') and contains(@id, 'TAB')]"
+                 type='XPATH'/>
+        <element name='Limit_Audit'
+                 attribute="//a[contains(text(), 'Audit') and contains(@id, 'TAB')]"
+                 type='XPATH'/>
+        <element name='Limit_Industry' attribute="//input[contains(@title, 'Industry')]"
+                 type='XPATH'/>
+        <element name='Limit_Target' attribute="//input[contains(@title, 'Target')]"
+                 type='XPATH'/>
+        <element name='Limit_Nationality' attribute="//input[contains(@title, 'Nationality')]"
+                 type='XPATH'/>
+        <element name='Limit_CustomerStatus' attribute="//input[contains(@title, 'Customer Status')]"
+                 type='XPATH'/>
+        <element name='Limit_Residence' attribute="//input[contains(@title, 'Residence')]"
+                 type='XPATH'/>
+        <element name='Limit_Street' attribute="//input[contains(@title, 'Street')]"
+                 type='XPATH'/>
+        <element name='Limit_LegalID' attribute="//input[contains(@title, 'legal ID')]"
+                 type='XPATH'/>
+        <element name='Limit_DateOfBirth' attribute="//input[contains(@title, 'Date Of Birth')]"
+                 type='XPATH'/>
+        <element name='Limit_CustomerLiability' attribute="//input[contains(@title, 'Customer Liability')]"
+                 type='XPATH'/>
+        <element name='Limit_CustomerNo1' attribute="//input[contains(@ID, 'CUSTOMER-NO--_R1')]"
+                 type='XPATH'/>
+        <element name='Limit_LiabilityCust1' attribute="//input[contains(@ID, 'LIABILITY-NO--_R1')]"
+                 type='XPATH'/>
+        <element name='Limit_AllocationKey' attribute="//input[contains(@id, 'LIMIT-CHANGE--ALLOCATION-KEY')]"
+                 type='XPATH'/>
+        <element name='Limit_NewCoverLiability' attribute="//label[contains(@for,'NEW-COVER-LIABILITY')]"
+                 type='XPATH'/>
+        <element name='Limit_NewUseCollateral' attribute="//label[contains(@for,'NEW-USE-COLLATERAL')]"
+                 type='XPATH'/>
+        <element name='NewPriorityReceive' attribute="//label[contains(@for,'NEW-PRIORITY-RECEIVE')]"
+                 type='XPATH'/>
+        <element name='Limit_NewAssetOrder' attribute="//input[contains(@name, 'NEWASSETORDER')]"
+                 type='XPATH'/>
+        <element name='Limit_SubAllocFrom' attribute="//input[contains(@name, 'SUBALLOCATEFROM')]"
+                 type='XPATH'/>
+        <element name='Limit_SubAllocTo' attribute="//input[contains(@name, 'SUBALLOCATETO')] "
+                 type='XPATH'/>
+        <element name='Limit_Notes' attribute="//input[contains(@name, 'NOTES')]"
+                 type='XPATH'/>
+        <element name='Limit_EffectiveDate' attribute="//input[contains(@name, 'EFFECTIVEDATE')] "
+                 type='XPATH'/>
+        <element name='Limit_ExpiryDate' attribute="//input[contains(@name, 'EXPIRYDATE')]"
+                 type='XPATH'/>
+        <element name='Limit_Currency' attribute="//input[contains(@name, 'CURRENCY')]"
+                 type='XPATH'/>
+        <element name='Limit_OnlineLimit' attribute="//input[contains(@name, 'ONLINELIMITAMT')]"
+                 type='XPATH'/>
+        <element name='Limit_AutoRestoreLimit' attribute="//label[contains(@for,'AUTO-RESTORE-ALLOC')] "
+                 type='XPATH'/>
+        <element name='TimeCode' attribute="//input[contains(@name, 'TIMECODE')]"
+                 type='XPATH'/>
+        <element name='Limit_FullName' attribute="//input[contains(@title, 'Full Name')]"
+                 type='XPATH'/>
+        <element name='Limit_SubAllocTo' attribute="//input[contains(@title, 'Mnemonic')] "
+                 type='XPATH'/>
+        <element name='Limit_ShortName' attribute="//input[contains(@title, 'Short Name')]"
+                 type='XPATH'/>
+        <element name='Limit_CustomerType' attribute="//label[contains(@for,'CUSTOMER-TYPE')]"
+                 type='XPATH'/>
+        <element name='Limit_Sector' attribute="//input[contains(@title, 'Sector')]"
+                 type='XPATH'/>
+        <element name='Limit_Language' attribute="//input[contains(@title, 'Language')]"
+                 type='XPATH'/>
+        <element name='Limit_AccountOfficer' attribute="//input[contains(@title, 'Account Officer')]"
+                 type='XPATH'/>
+        <element name='Limit_LiabilityCust' attribute="//input[contains(@id, 'LIMIT-CHANGE--LIABILITY-NO')]"
+                 type='XPATH'/>
+        <element name='Limit_CustomerNumber'
+                 attribute="//input[contains(@aria-label, 'Customer Number') or contains(@title, 'Customer No')]"
+                 type='XPATH'/>
+        <element name='Limit_LiabilityCustomerDropdownButton'
+                 attribute="//div[contains(@id, 'CHANGE--LIABILITY-NO')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+    </module>
+    <module name="Message">
+        <element name='Message_Validate' attribute="//a[@id='C1__C2__C1__C1__TAB_-REPEAT-WITHIN-TABS_anchor_R2']"
+                 type='XPATH'/>
+        <element name='Message_TxnComplete' attribute="//div[@id='C1__HEAD_BD5F38136307A5F545231_R1']" type='XPATH'/>
+    </module>
+    <module name="AccountSetup">
+        <element name='AccountSetup_Accounts' attribute="//span[text()='Accounts']"
+                 type='XPATH'/>
+
+      <element name='AccountSetup_Accounts1' attribute="//[@id='C1__C3__C1__C1__FMT_F4B5BC569818178F11861799_R3_heading']"
+                 type='XPATH'/>
+
+
+        <element name="AccountCreation_AccountTab"
+                 attribute=""
+                 type="XPATH"   />
+
+        <element name="AccountCreation_PostingRestrictionSubMenu" attribute="//a[@id='C1__C3__C1__C1__C3__C1__C1__TAB_-REPEAT-WITHIN-TABS_anchor_R2']"
+                 type="XPATH" />
+
+        <element name="AccountCreation_PostingRestrictionDropdownButton" attribute="//input[@id='C1__C3__C1__C1__C3__C1__C1__C2__QUE_--AA-ARR-ACCOUNT--POSTING-RESTRICT--_R1']"
+                 type="XPATH" />
+
+        <element name='AccountSetup_RetailProduct' attribute="//span[text()='Retail Product Catalog']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Retail' attribute="(//span[text()='Retail Product Catalog'])[2]"
+                 type='XPATH'/>
+        <element name='AccountSetup_CurrAcc'
+                 attribute="//*[@id='group-id-C1__C1__C1__TBL_FD96C43269986890103366_-div-style-padding-4px-data-unique-main-group-id-1-pkmb-nbsp-current-nbsp-accounts-div-']/td[1]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Search'
+                 attribute="//input[@type='search']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Simulate'
+                 attribute="//a[contains(text(), 'Simulate')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_NewArrangment' attribute="//a[@id='C1__C1__C1__QUE_FD96C43269986890103378_R2']"
+                 type='XPATH'/>
+        <element name='AccountSetup_CustId'
+                 attribute="//input[@id='C1__C2__C1__C1__C1__QUE_--AA-ARRANGEMENT-ACTIVITY--CUSTOMER--_R1']"
+                 type='XPATH'/>
+        <element name='AccountSetup_CustId1'
+                 attribute="//input[@id='C1__C2__C1__C1__C1__QUE_--AA-ARRANGEMENT-ACTIVITY--CUSTOMER--_R1']"
+                 type='XPATH'/>
+        <element name='AccountSetup_CustId2'
+                 attribute="//input[@id='C1__C2__C1__C1__C1__QUE_--AA-ARRANGEMENT-ACTIVITY--CUSTOMER--_R2']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Currency' attribute="//input[contains(@id, '--CURRENCY')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Currency' attribute="//input[contains(@id, '--CURRENCY')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_NewArrangement'
+                 attribute="//a[@id='C1__C2__C1__C1__TAB_-REPEAT-WITHIN-TABS_anchor_R1']"
+                 type='XPATH'/>
+        <element name='AccountSetup_RoleDropdownButton'
+                 attribute="//div[contains(@id, 'CUSTOMER-ROLE--_R1')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Role1DropdownButton'
+                 attribute="//div[contains(@id, 'CUSTOMER-ROLE--_R1')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Role2DropdownButton'
+                 attribute="//div[contains(@id, 'CUSTOMER-ROLE--_R2')]//span[@class='ddSpan']"
+                 type='XPATH'/>
+        <element name='AccountSetup_RoleSelectionDropdownButton'
+                 attribute="//td[contains(@id, 'C1__C1__C1__p4_QUE_FD96C43269986890115053_R11')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_OverView'
+                 attribute="//a[@title='Overview']"
+                 type='XPATH'/>
+        <element name='AccountSetup_ArrangementField'
+                 attribute="//input[@aria-label='Arrangement']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Findbtn'
+                 attribute="//button[@title='Executes the query']"
+                 type='XPATH'/>
+        <element name='AccountSetup_NewActivity'
+                 attribute="//a[text()='New Activity']"
+                 type='XPATH'/>
+        <element name='AccountSetup_SetRestriction'
+                 attribute="//span[contains(text(),'Dormant')]//ancestor::td//following-sibling::td//a[@title='Do Activity Today']"
+                 type='XPATH'/>
+        <element name='AccountSetup_AccountBtn'
+                 attribute="//span[text()='Account']"
+                 type='XPATH'/>
+        <element name='AccountSetup_AccountRestriction'
+                 attribute="//input[contains(@id, 'ACCOUNT--POSTING-RESTRICT')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Populate'
+                 attribute="//a[contains(@id, 'C1__aa_populate_version_button')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_ACOpeningAgreement'
+                 attribute="//select[contains(@id, 'C1__QUE_5B36DC446DAAC1DC52666_R1')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Accept'
+                 attribute="//div[@id='C1__p4_accept_version_warnings_button']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Commit'
+                 attribute="//a[contains(@id, 'commit_version_button')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_VerificationMessageAuthorize'
+                 attribute="//div[@id='C1__HEAD_BD5F38136307A5F545231_R1' and contains(text(),'Txn Complete:')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Accounts' attribute="//span[text()='Accounts']"
+                 type='XPATH'/>
+        <element name='AccountSetup_RetailProduct' attribute="//span[text()='Retail Product Catalog']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Retail' attribute="(//span[text()='Retail Product Catalog'])[2]"
+                 type='XPATH'/>
+        <element name='AccountSetup_FindAccount' attribute="(//span[text()='Find Account'])[1]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Owner' attribute="(//label[text()='Owner']//parent::div//div//input)[2]"
+                 type='XPATH'/>
+        <element name='AccountSetup_AsaanCurrentAccount'
+                 attribute="//span[contains(text(),'Asaan') and contains(text(), 'Account')]//ancestor::td//following-sibling::td//a[@title='New Arrangement']"
+                 type='XPATH'/>
+        <element name='AccountSetup_NewArrangement1'
+                 attribute="//a[@script-id='PKMBAAPRODUCTCATALOG_DRILLDOWN_R1_1']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Search'
+                 attribute="//input[@type='search']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Search'
+                 attribute="//input[@type='search']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Simulate'
+                 attribute="//a[contains(text(), 'Simulate')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Currency' attribute="//input[@title='Currency']"
+                 type='XPATH'/>
+        <element name='AccountSetup_NewArrangement'
+                 attribute="//a[@id='C1__C2__C1__C1__TAB_-REPEAT-WITHIN-TABS_anchor_R1']"
+                 type='XPATH'/>
+        <element name='AccountSetup_RoleSelectionDropdownButton'
+                 attribute="//td[contains(@id, 'C1__C1__C1__p4_QUE_FD96C43269986890115053_R11')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Populate'
+                 attribute="//a[contains(@id, 'C1__aa_populate_version_button')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_ACOpeningAgreement'
+                 attribute="//select[contains(@id, 'C1__QUE_5B36DC446DAAC1DC52666_R1')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Accept'
+                 attribute="//div[contains(@id, 'C1__p4_accept_version_warnings_button')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Commit'
+                 attribute="//a[contains(@id, 'C1__commit_version_button')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_FindAccount' attribute="(//span[text()='Find Account'])[1]"
+                 type='XPATH'/>
+        <element name='AccountSetup_Owner' attribute="(//label[text()='Owner']//parent::div//div//input)[2]"
+                 type='XPATH'/>
+        <element name='AccountSetup_FindButton'
+                 attribute="(//button[@title='Executes the query'])[2]"
+                 type='XPATH'/>
+        <element name='AccountSetup_AccountNumber'
+                 attribute="(//tbody/tr/td//span)[2]"
+                 type='XPATH'/>
+        <element name='AccountSetup_AuthViewButton'
+                 attribute="//a[contains(@class, 'EnquiryTopLinksControl')]"
+                 type='XPATH'/>
+        <element name='AccountSetup_PendingApprovalDropdown'
+                 attribute="//select[@script-id='AADETAILSACTIVITYLOGPENDINGFIN_DRILLDOWN_R1']"
+                 type='XPATH'/>
+        <element name='AccountSetup_PendingApprovalLaunchButton'
+                 attribute="//div[@title='Launch']"
+                 type='XPATH'/>
+        <element name='AccountSetup_AccountStatement'
+                 attribute="//span[text()='Account Statement']"
+                 type='XPATH'/>
+        <element name='AccountSetup_EnqStmtEntBook'
+                 attribute="//span[text()='Enquiry STMT ENT BOOK']"
+                 type='XPATH'/>
+        <element name='AccountSetup_Account'
+                 attribute="//input[@aria-label='Account']"
+                 type='XPATH'/>
+        <element name='AccountSetup_BookingDate'
+                 attribute="//legend[(contains(text(), 'Booking Date'))]//parent::*//input"
+                 type='XPATH'/>
+    </module>
+    <module name="AccountStatement">
+        <element name='AccountStatement_NoEntries'
+                 attribute="//span[contains(text(), 'NO') and contains(text(), 'ENTRIES')]"
+                 type='XPATH'/>
+        <element name='AccountStatement_Debit'
+                 attribute='//div[contains(text(), "Results")]//parent::*//tr[X]/td[5]//span'
+                 type='XPATH'/>
+        <element name='AccountStatement_Credit'
+                 attribute='//div[contains(text(), "Results")]//parent::*//tr[X]/td[6]//span'
+                 type='XPATH'/>
+
+    </module>
+    <module name="AccountAuth">
+        <element name='AccountAuth_FindAccounts' attribute="//span[text()='Find Account']"
+                 type='XPATH'/>
+        <element name='AccountAuth_listId' attribute="//input[@id='C1__C1__C1__QUE_5F2D64E529F0BC3C796729']"
+                 type='XPATH'/>
+    </module>
+    <module name="AccountSweep">
+        <element name='AccountSweep_SetupMaintenanceSweep' attribute="//span[text()='Setup Maintenance Sweep']"
+                 type='XPATH'/>
+        <element name='AccountSweep_SetupSurplusSweep' attribute="//span[text()='Setup Surplus Sweep']"
+                 type='XPATH'/>
+        <element name='AccountSweep_SetupTwoWaySweep' attribute="//span[text()='Setup Two Way Sweep']"
+                 type='XPATH'/>
+        <element name='AccountSweep_ListUnauthorisedSweeps' attribute="//span[text()='List Unauthorised sweeps']"
+                 type='XPATH'/>
+        <element name='AccountSweep_ReverseSweeps' attribute="//span[text()='Reverse Sweeps']"
+                 type='XPATH'/>
+        <element name='AccountSweep_AuthoriseDeleteAccountSweep'
+                 attribute="//span[text()='Authorise/Delete Account Sweep']"
+                 type='XPATH'/>
+        <element name='AccountSweep_ListSweepTransactionsOnAnAccount'
+                 attribute="//span[text()='List Sweep transactions on an account']"
+                 type='XPATH'/>
+    </module>
+    <module name="CM">
+        <element name='CM_ChequeManagement' attribute="//span[text()='Cheque Management']"
+                 type='XPATH'/>
+        <element name='CM_ChequeBookIssuanceLCY' attribute="//span[text()='Cheque Book Issuance LCY']"
+                 type='XPATH'/>
+        <element name='CM_Account' attribute="//input[@aria-label= 'Account' and @type= 'text']"
+                 type='XPATH'/>
+        <element name='CM_Request' attribute="//select[contains(@name,'SEARCHRESPONSE')]"
+                 type='XPATH'/>
+        <element name='CM_NumberIssued1'
+                 attribute="//select[@aria-label='Number Issued' or @title = 'Number Issued' or contains(@id, 'LEAF--REQUEST')]"
+                 type='XPATH'/>
+        <element name='CM_Accept' attribute="//a[contains(@id, 'accept_version_overrides_button')]"
+                 type='XPATH'/>
+        <element name='CM_Authorize/DeleteCustomerChequeBook'
+                 attribute="//span[text()='Authorize/Delete Customer Cheque Book']"
+                 type='XPATH'/>
+        <element name='CM_ChequeTypeNo' attribute="//input[@aria-label='Cheque Type No']"
+                 type='XPATH'/>
+        <element name='CM_ModeOfDeliverySelf'
+                 attribute="//select[@aria-label='Mode Of Delivery']//option[@value='SELF']"
+                 type='XPATH'/>
+        <element name='CM_ChequeBookIssuanceFCY' attribute="//span[text()='Cheque Book Issuance FCY']"
+                 type='XPATH'/>
+        <element name='CM_ManagerComments' attribute="//input[@title='Manager Comments']"
+                 type='XPATH'/>
+        <element name='CM_ModeOfDelivery' attribute="//select[@aria-label='Mode Of Delivery']"
+                 type='XPATH'/>
+        <element name='CM_WaiveCharges' attribute="//label[contains(@for, 'WAIVE-CHARGES--_0')]"
+                 type='XPATH'/>
+        <element name='CM_AutoService' attribute="//label[contains(@for, 'SERVICE-CONTROL--_2')]"
+                 type='XPATH'/>
+
+        <element name='CM_AuthCheckBox' attribute="//div[contains(@class, 'fastpath-checkbox')]"
+                 type='XPATH'/>
+
+
+        <element name='CM_ChequeBookCancelled' attribute="//span[text()='Cheque Book Cancelled']"
+                 type='XPATH'/>
+        <element name='CM_CancelCheque' attribute="//a[@title='Cancel Cheque']"
+                 type='XPATH'/>
+        <element name='CM_ServiceSentForPrinting'
+                 attribute="//span[text()='Service to mark Cheque Status Sent for printing']"
+                 type='XPATH'/>
+        <element name='CM_ServiceChequeStatusOverdue' attribute="//span[text()='Service to mark Cheque Status Overdue']"
+                 type='XPATH'/>
+        <element name='CM_UpdateChequeBookStatus'
+                 attribute="//span[text()='Update Cheque Book Status to Deliverd/Undelivered']"
+                 type='XPATH'/>
+        <element name='CM_TransactionId' attribute="//input[@aria-label='Transaction Id']"
+                 type='XPATH'/>
+        <element name='CM_ChequeStatus' attribute="//input[@Title='CHEQUE.STATUS']"
+                 type='XPATH'/>
+        <element name='CM_ChequeStatusEnquiry' attribute="//span[text()='Cheque Book Status']"
+                 type='XPATH'/>
+        <element name='CM_AccountNumber' attribute="//input[@aria-label='Account Number']"
+                 type='XPATH'/>
+        <element name='CM_ChargeAmount' attribute="//input[@aria-label='Charge Amount index 1']"
+                 type='XPATH'/>
+        <element name='CM_FEDAmount' attribute="//span[@title='Defines the tax amt applicable for the tax code']"
+                 type='XPATH'/>
+        <element name='CM_Status' attribute="//span[@title='Denotes cheque status for the record']"
+                 type='XPATH'/>
+        <element name='CM_PreferredAddress'
+                 attribute="//span[contains(@id, 'PREF-ADDRESS') and @title = 'Preferred Address']"
+                 type='XPATH'/>
+        <element name='CM_AuthorisedPersonName' attribute="//input[@aria-label='Authorised Person Name']"
+                 type='XPATH'/>
+        <element name='CM_AuthorisedPersonCNIC' attribute="//input[@aria-label='Authorised Person CNIC']"
+                 type='XPATH'/>
+        <element name='CM_AuthorisedPersonMob' attribute="//input[@aria-label='Authorised Person Mob#']"
+                 type='XPATH'/>
+        <element name='CM_MultiChequeBook' attribute="//input[@aria-label='Multiple Cheque Book Request']"
+                 type='XPATH'/>
+        <element name='CM_ChequeIssueCheckbox' attribute="//input[@id='C1__C1__QUE_84C2ADDD5E7A219B455446_R1']"
+                 type='XPATH'/>
+        <element name='CM_UpdateChequeBookStatusBulk' attribute="//span[text()='Update Cheque Book Status - Bulk']"
+                 type='XPATH'/>
+        <element name='CM_ServiceControlAuto' attribute="//input[@value = 'AUTO' and @checked = 'checked']//parent::*"
+                 type='XPATH'/>
+    </module>
+    <module name="FT">
+        <element name='FT_TransactionType' attribute="//input[@title='Transaction Type']"
+                 type='XPATH'/>
+        <element name='FT_DebitAcctNo' attribute="//input[@title='Debit Acct No']"
+                 type='XPATH'/>
+        <element name='FT_DebitCurrency' attribute="//input[@title='Debit Currency']"
+                 type='XPATH'/>
+        <element name='FT_DebitAmount' attribute="//input[@title='Debit Amount']"
+                 type='XPATH'/>
+        <element name='FT_CreditAcctNo' attribute="//input[@title='Credit Acct No']"
+                 type='XPATH'/>
+        <element name='FT_OrderingBank' attribute="//input[@title='Ordering Bank']"
+                 type='XPATH'/>
+    </module>
+    <module name="STOC">
+        <element name='STOC_StandingOrder' attribute="//span[contains(text(),'Stranding Order')]"
+                 type='XPATH'/>
+        <element name='STOC_StandingOrderInput' attribute="//span[contains(text(),'Standing Order Input')]"
+                 type='XPATH'/>
+        <element name='STOC_InputFixedBalanceSTOAccountTransfer'
+                 attribute="//span[contains(text(),'Input Fixed/Balance STO - Account Transfer')]"
+                 type='XPATH'/>
+        <element name='STOC_InputFixedBalanceSTOAccountTransferContractScreen_InputAccount'
+                 attribute="//input[@id='C1__QUE_PrimaryKey']" type='XPATH'/>
+        <element name='STOC_AccountTransferContractScreen_EditButton' attribute="//span[contains(text(),'Edit')]"
+                 type='XPATH'/>
+        <element name='STOC_AccountTransferCounterPartyAccNo'
+                 attribute="//input[contains(@id,'C1__C2__C1__C1__C1__QUE_--STANDING-ORDER--CPTY-ACCT-NO--')]"
+                 type='XPATH'/>
+        <element name='STOC_AccountTransferCreditAmount' attribute="//input[@aria-label = 'Credit Amount']"
+                 type='XPATH'/>
+        <element name='STOC_InputFixedBalanceSTOBancassurance'
+                 attribute="//span[contains(text(),'Input Fixed/Balance STO - Bancassurance')]"
+                 type='XPATH'/>
+        <element name='STOC_StandingOrderEnquiries'
+                 attribute="//span[contains(text(),'Standing Order Enquiries')]"
+                 type='XPATH'/>
+        <element name='STOC_AuthorizeDeleteSTO'
+                 attribute="//span[contains(text(),'Authorize/Delete STO')]"
+                 type='XPATH'/>
+        <element name='STOC_Reference' attribute="//input[contains(@aria-label, 'STO Reference')]"
+                 type='XPATH'/>
+    </module>
+
+    <module name="STO">
+        <!--        Start of Maria Xpath-->
+
+        <element name='STO_InvalidMessage' attribute="//div[text()='No records available']"
+                 type='XPATH'/>
+        <element name='STO_sto' attribute="//span[text()='Stranding Order']"
+                 type='XPATH'/>
+        <element name='STO_StoOrderInput' attribute="//span[text()='Standing Order Input']"
+                 type='XPATH'/>
+        <element name='STO_StoAccTransfer' attribute="//span[text()='Input Fixed/Balance STO - Account Transfer']"
+                 type='XPATH'/>
+        <element name='STO_StoBancassurance' attribute="//span[text()='Input Fixed/Balance STO - Bancassurance']"
+                 type='XPATH'/>
+        <element name='STO_StoAccInput' attribute="//input[@id ='Sub Account/Investor Acct']"
+                 type='XPATH'/>
+        <element name='STO_frequency' attribute="//input[contains(@title, 'Frequency')]"
+                 type='XPATH'/>
+        <element name='STO_SaveBtn' attribute="//a[@title ='Save']"
+                 type='XPATH'/>
+        <element name='STO_CounterPartyAcc' attribute="//input[contains(@id, 'CPTY-ACCT-NO')]"
+                 type='XPATH'/>
+        <element name='STO_CreditAmount' attribute="//input[contains(@id, 'CURRENT-AMOUNT-BAL')]"
+                 type='XPATH'/>
+        <element name='STO_Validate' attribute="//a[@title ='Validate']"
+                 type='XPATH'/>
+        <element name='STO_Commit' attribute="//a[@title ='Commit']"
+                 type='XPATH'/>
+        <element name='STO_Enquiries' attribute="//span[text() ='Standing Order Enquiries']"
+                 type='XPATH'/>
+        <element name='STO_ExecutionDetailMenu' attribute="//span[text() ='STO Execution Details']"
+                 type='XPATH'/>
+        <element name='STO_Authorize_Delete' attribute="//span[text() ='Authorize/Delete STO']"
+                 type='XPATH'/>
+        <element name='STO_StoView'
+                 attribute="//span[contains(text(), 'Standing Order - View  ')]"
+                 type='XPATH'/>
+        <element name='STO_ModifyBtn'
+                 attribute="//a[contains(@title, 'Modify')]"
+                 type='XPATH'/>
+        <element name='STO_Weekly'
+                 attribute="//input[contains(@id, 'frequency:W')]"
+                 type='XPATH'/>
+        <element name='STO_ReverseBtn'
+                 attribute="//a[contains(@title, 'Reverse')]"
+                 type='XPATH'/>
+        <element name='STO_Expand'
+                 attribute="//span[contains(text(),'Standing Order')]"
+                 type='XPATH'/>
+        <element name='STO_ViewAmendFailedSto'
+                 attribute="//span[text() ='View/Amend Failed STOs']"
+                 type='XPATH'/>
+        <element name='STO_Dropdown'
+                 attribute="//select[contains(@class, 'DrillDownList')]"
+                 type='XPATH'/>
+        <element name='STO_Check'
+                 attribute="//div[contains(@title, 'Launch')]"
+                 type='XPATH'/>
+        <element name='STO_PaymentMenu' attribute="//span[text() ='Payments Enquiry STO - Transaction wise']"
+                 type='XPATH'/>
+        <element name='STO_ViewInDetailIcon' attribute="//a[contains(@title, 'ViewinDetail')]"
+                 type='XPATH'/>
+        <element name='STO_StandingOrderList' attribute="//span[text() ='Standing Orders List']"
+                 type='XPATH'/>
+        <element name='STO_Id' attribute="//input[contains(@aria-label, '@ID')]"
+                 type='XPATH'/>
+        <element name='STO_Rev' attribute="(//a[contains(@title, 'Reverse')])//span[1]"
+                 type='XPATH'/>
+        <element name='STO_Id' attribute="//input[contains(@aria-label, '@ID')]"
+                 type='XPATH'/>
+        <element name='STO_Inactive' attribute="//label[contains(@for, 'STANDING-ORDER--INACTIVE--_1')]"
+                 type='XPATH'/>
+        <element name='STO_AmendUnauthMenu' attribute="//span[text() ='Amend Unauthorised Standing Orders']"
+                 type='XPATH'/>
+        <element name='STO_ListOfInactiveSTO' attribute="//span[text() ='List of Inactive Standing Orders']"
+                 type='XPATH'/>
+        <element name='STO_IdList' attribute="//input[contains(@aria-label, 'Id')]"
+                 type='XPATH'/>
+        <element name='STO_Validation'
+                 attribute="(//div[@id='QInErr'])//h1[contains(text(),'Please resolve the errors below to proceed:')]"
+                 type='XPATH'/>
+        <element name='STO_AccountTransferCounterPartyAccNo'
+                 attribute="//input[contains(@title, 'Details to enable Beneficiary to apply the payment')]"
+                 type='XPATH'/>
+        <element name='STO_BancassuranceCreditAmount'
+                 attribute="//input[contains(@title, 'Credit Amount')]"
+                 type='XPATH'/>
+        <element name='STO_BancassuranceCreditCurrency'
+                 attribute="//input[contains(@title, 'Credit Currency')]"
+                 type='XPATH'/>
+        <element name='STO_failedSto'
+                 attribute="//a[contains(text(), 'Details of Failed Standing Orders')]"
+                 type='XPATH'/>
+        <element name='STO_delete'
+                 attribute="//a[contains(@title, 'Delete')]"
+                 type='XPATH'/>
+        <element name='STO_EnquiryFTNumber'
+                 attribute="//span[@title='FT Number']"
+                 type='XPATH'/>
+
+
+        <!--        Start of Ali Raza Xpatht-->
+        <element name='STO_StandingOrderListUpdated'
+                 attribute="//*[@id='ALLOWMARKUP_C1__C1__QUE_5DAD9B0XEBDEBA2BY1_R1']"
+                 type='XPATH'/>
+
+
+        <element name='STO_InactiveSTOListUpdated' attribute="//*[@id='C1__C1__QUE_9AD180C1X444C4EF3Y1_R1']"
+                 type='XPATH'/>
+
+        <element name='STO_ViewPaymentUpdated'
+                 attribute="//span[contains(text(), 'View Screen')]"
+                 type='XPATH'/>
+
+
+        <!--        Start of Raza Muhammad Xpatht-->
